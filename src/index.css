@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-top{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: space-between;
+}
+
+.header-title{
+    font-family: Brush Script Std;
+    
+}
+
+.nav-bar{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+.main-welcome{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    
+}
