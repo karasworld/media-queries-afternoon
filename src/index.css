@@ -1,32 +1,251 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+@media screen and (min-width: 768px) {
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		background-image: url("main.jpg");
+		color: white;
+	}
+	
+	.header-top {
+		display: flex;
+	}
+	
+	.header-title {
+		font-family: Brush Script Std;
+		font-size: 28px;
+		color: rgb(255, 220, 62);
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		align-content: flex-start;
+		position: relative;
+		top: -7vh;
+		left: 8vw;
+	}
+	
+	.top-button{
+		visibility: visible;
+		position: absolute;
+		left: 85vw;
+		font-weight: bolder;
+		color: white;
+		background-color: rgb(255, 220, 62);
+		border-radius: 8px;
+		font-size: 18px;
+		width: 12vw;
+		height: 5vh;
+
+	}
+	
+	.nav-bar {
+		visibility: hidden;
+	}
+	
+	li {
+		color: white;
+		margin: 20px;
+		padding: 0px;
+		list-style-type: none;
+	}
+	
+	li:hover {
+		color: rgb(255, 220, 62);
+	}
+	
+	.main-body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: space-around;
+		position: relative;
+		top: 10vh;
+		
+	}
+	
+	.main-welcome {
+		font-family: 'Courier New', Courier, monospace;
+		font-style: italic;
+		font-size: 42px;
+	}
+	
+	.main-text {
+		position: relative;
+		top: -8vh;
+		font-size: 75px;
+	}
+	
+	.bottom-button {
+		font-weight: bolder;
+		color: white;
+		background-color: rgb(255, 220, 62);
+		border-radius: 8px;
+		font-size: 20px;
+		width: 25vw;
+		height: 8vh;
+	}
+
 }
 
-.header-top{
-    display: flex;
+@media screen and (min-width: 1024px) {
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		background-image: url("main.jpg");
+		color: white;
+	}
+	
+	.header-top {
+		display: flex;
+	}
+	
+	.header-title {
+		font-family: Brush Script Std;
+		font-size: 36px;
+		color: rgb(255, 220, 62);
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		align-content: flex-start;
+		position: relative;
+		left: 8vw;
+	}
+	
+	.top-button{
+		visibility: hidden;
+	}
+
+	.nav-bar {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		align-content: flex-end;
+		position: relative;
+		left: 25vw;
+	}
+	
+	li {
+		color: white;
+		margin: 20px;
+		padding: 0px;
+		list-style-type: none;
+	}
+	
+	li:hover {
+		color: rgb(255, 220, 62);
+	}
+	
+	.main-body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: space-around;
+		position: relative;
+		top: 30vh;
+		
+	}
+	
+	.main-welcome {
+		font-family: 'Courier New', Courier, monospace;
+		font-style: italic;
+		font-size: 42px;
+	}
+	
+	.main-text {
+		position: relative;
+		top: -8vh;
+		font-size: 75px;
+	}
+	
+	.bottom-button {
+		font-weight: bolder;
+		color: white;
+		background-color: rgb(255, 220, 62);
+		border-radius: 8px;
+		font-size: 14px;
+		width: 12vw;
+		height: 8vh;
+	}
+	}
+
+
+@media screen and (min-width: 1900px) {
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("main.jpg");
+	color: white;
+}
+
+.header-top {
+	display: flex;
+}
+
+.header-title {
+	font-family: Brush Script Std;
+	font-size: 30px;
+	color: rgb(255, 220, 62);
+	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: space-between;
-}
-
-.header-title{
-    font-family: Brush Script Std;
-    
-}
-
-.nav-bar{
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
 	justify-content: space-around;
 	align-items: center;
-	align-content: stretch;
+	align-content: flex-start;
+	position: relative;
+	left: 10vw;
 }
 
-.main-welcome{
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    
+.top-button{
+	visibility: hidden;
+}
+
+.nav-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-end;
+	position: relative;
+	left: 50vw;
+}
+
+li {
+	color: white;
+	margin: 20px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+li:hover {
+	color: rgb(255, 220, 62);
+}
+
+.main-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: space-around;
+	position: relative;
+	top: 35vh;
+}
+
+.main-welcome {
+	font-family: 'Courier New', Courier, monospace;
+	font-style: italic;
+	font-size: 46px;
+}
+
+.main-text {
+	position: relative;
+	top: -8vh;
+	font-size: 85px;
+}
+
+.bottom-button {
+	font-weight: bolder;
+	color: white;
+	background-color: rgb(255, 220, 62);
+	border-radius: 8px;
+	font-size: 18px;
+	width: 12vw;
+	height: 8vh;
+}
 }
